@@ -9,11 +9,14 @@
   background-color: #225dff;
   padding: 10px 20px;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .button__text {
   font-size: var(--font-size);
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .button--primary {

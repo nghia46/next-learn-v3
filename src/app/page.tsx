@@ -1,10 +1,13 @@
-import Counter from "./components/counter/Counter";
+import CardList from "./components/cardList/cardList";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-      <Counter />
+      <div className={styles.header}>
+
+      </div>
+      <CardList />
     </div>
   );
 }

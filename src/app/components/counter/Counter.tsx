@@ -15,7 +15,7 @@ export default function Counter() {
 
   return (
     <div className={styles.counter}>
-      <h1>Counter: {count}</h1>
+      <p className={styles.counterText}>Counter: {count}</p>
       <div className={styles.buttonGroup}>
         <CustomButton text="Increase" variant="primary" onClick={increase} />
         <CustomButton text="Decrease" variant="secondary" onClick={decrease} />
